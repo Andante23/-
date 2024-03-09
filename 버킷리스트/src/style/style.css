@@ -1,0 +1,61 @@
+.bucket_navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bg {
+  background-image: url("../asset/Images/buckflower.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 360px;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  margin-top: 3.125rem;
+  color: #e8344e;
+  border-radius: 0.625rem;
+  padding: 0.25rem;
+  font-size: 25px;
+}
+
+.msg {
+  margin: 0.625rem 1.25rem;
+  color: black;
+}
+
+.bucket {
+  width: 10rem;
+  height: 10rem;
+  background-size: cover;
+  background-position: center;
+  margin: 0.625rem;
+  position: relative;
+  padding: 5rem;
+  font-weight: bolder;
+  font-size: 1rem;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.img1 {
+  background-image: url("../asset/Images/Bucket01.png");
+  color: white;
+}
+
+.img2 {
+  background-image: url("../asset/Images/Bucket02.png");
+  color: #e8344e;
+}
+
+.img3 {
+  background-image: url("../asset/Images/Bucket03.png");
+  color: #e8344e;
+}
