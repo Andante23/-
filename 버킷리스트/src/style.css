@@ -1,0 +1,78 @@
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bg {
+  background-image: url("./Sparthon_BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-color: #141617;
+  width: 360px;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  margin-top: 50px;
+  color: #e8344e;
+  border-radius: 10px;
+  padding: 4px 14px;
+}
+
+.msg {
+  margin: -10px 0 30px;
+  color: black;
+}
+
+.bucket {
+  width: 10rem;
+  height: 10rem;
+  background-size: cover;
+  background-position: center;
+  margin: 0.625rem;
+  position: relative;
+  padding: 5em;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  word-break: keep-all;
+}
+
+.img1 {
+  background-image: url("./Bucket01.png");
+  color: white;
+}
+
+.img2 {
+  background-image: url("./Bucket02.png");
+  color: #e8344e;
+}
+
+.img3 {
+  background-image: url("./Bucket03.png");
+  color: #e8344e;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  width: 400px;
+}

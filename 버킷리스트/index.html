@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>2024 신년계획 버킷리스트</title>
+    <!-- <script src="main.js" defer></script> -->
+    <style>
+      html {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .bg {
+        background-image: url("벚꽃배경1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        background-color: #ffffff;
+        width: 360px;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .title {
+        margin-top: 50px;
+        color: #e8344e;
+        border-radius: 10px;
+        padding: 4px 14px;
+      }
+
+      .msg {
+        margin: -10px 0 30px;
+        color: black;
+      }
+
+      .bucket {
+        width: 10rem;
+        height: 10rem;
+        background-size: cover;
+        background-position: center;
+        margin: 0.625rem;
+        position: relative;
+        padding: 5em;
+        font-weight: bold;
+        font-size: 1rem;
+        text-align: center;
+        word-break: keep-all;
+      }
+
+      .img1 {
+        background-image: url("./Bucket01.png");
+        color: white;
+      }
+
+      .img2 {
+        background-image: url("./Bucket02.png");
+        color: #e8344e;
+      }
+
+      .img3 {
+        background-image: url("./Bucket03.png");
+        color: #e8344e;
+      }
+
+      .flex-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .wrap {
+        flex-wrap: wrap;
+        width: 400px;
+      }
+
+      .audio_tag {
+        padding-left: 25rem;
+        padding-top: 3.125rem;
+      }
+    </style>
+  </head>
+
+  <body class="bg center">
+    <h1 class="title">SPARTHON Bucket List</h1>
+
+    <p class="msg">내가 2024년에 이루고자 하는 것</p>
+
+    <section class="audio_tag">
+      <audio controls>
+        <source src="./bgm.mp3" type="audio/mpeg" />
+        이 문장은 여러분의 브라우저가 audio 태그를 지원하지 않을 때 화면에
+        표시됩니다!
+      </audio>
+    </section>
+    <div class="flex-row wrap">
+      <div class="bucket img1">리액트 4기 끝나고 더 공부하기</div>
+      <div class="bucket img2">꾸준히 운동하기</div>
+      <div class="bucket img3">도서 읽기</div>
+    </div>
+  </body>
+</html>
